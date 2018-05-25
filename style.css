@@ -1,0 +1,20 @@
+body {
+  width: 100%;
+  margin: auto;
+}
+
+#stage {
+  width: 600px;
+  height: 600px;
+  margin: 25% auto;
+  border: 1px dashed #cecdcd;
+}
+
+#hero {
+  width: 75px;
+  height: 75px;
+  border: 1px dashed red;
+  position: relative;
+  top: 2%;
+  left: 2%;
+}
