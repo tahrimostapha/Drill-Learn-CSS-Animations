@@ -10,11 +10,17 @@ body {
   border: 1px dashed #cecdcd;
 }
 
+@keyframes slideleft {
+  0%  { left: 10px; top: 10px;}
+  100%{ left: 515px; top: 10px;}
+}
+
 #hero {
   width: 75px;
   height: 75px;
   border: 1px dashed red;
   position: relative;
-  top: 2%;
-  left: 2%;
+  top: 10px;
+  left: 10px;
+  animation: slideleft 5s;
 }
