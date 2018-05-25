@@ -12,7 +12,8 @@ body {
 
 @keyframes slideleft {
   0%  { left: 10px; top: 10px;}
-  100%{ left: 515px; top: 10px;}
+  50% { left: 515px; top: 10px;}
+  100% { left: 10px; top: 10px;}
 }
 
 #hero {
@@ -22,5 +23,5 @@ body {
   position: relative;
   top: 10px;
   left: 10px;
-  animation: slideleft 5s;
+  animation: slideleft 2s infinite;
 }
