@@ -12,8 +12,11 @@ body {
 
 @keyframes slideleft {
   0%  { left: 10px; top: 10px;}
-  50% { left: 515px; top: 10px;}
-  100% { left: 10px; top: 10px;}
+  33% { left: 515px; top: 10px;}
+  66% { left: 515px; top: 215px; transform: rotate(0deg);}
+  67%{ left: 257px; top: 215px; transform: rotate(45deg);}
+  83%{ left: 257px; top: 215px; transform: rotate(45deg); border-color: red;}
+  100%{left: 10px; top: 215px; transform: rotate(90deg); border-color: blue;}
 }
 
 #hero {
@@ -23,5 +26,5 @@ body {
   position: relative;
   top: 10px;
   left: 10px;
-  animation: slideleft 2s infinite;
+  animation: slideleft 15s infinite;
 }
